@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rachel (Ruolin) Wang Personal Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="home">
+      <h2>
+      <a class="footer-link" href="https://www.linkedin.com/in/rachel-ruolin-wang/">Rachel Wang</a>
+      </h2>
+
+
+    </div>
+
+    <div class="top">
+      <h2>
+      <a class="footer-link" href="https://github.com/linwang98/Projects">Github</a>
+      <a class="footer-link" href="https://www.linkedin.com/in/rachel-ruolin-wang/">LinkedIn</a>
+        <a class="footer-link" href="https://scholar.google.com/citations?user=QHzpbDIAAAAJ&hl=en&oi=sra">Google Scholar</a>
+        <a class="footer-link" href="gallery.html">Gallery</a>
+
+      </h2>
+    </div>
+
+<div class="myphoto">
+ <img class="myphoto-img" src="rachel-image.png" alt="Ruolin Profile picture" style="width: 300px;">
+</div>
+<style>
+.myphoto {
+    margin-top: 30px;
+}
+</style>
+<div class="bottom">
+
+ <div class="text">
+   <h1>About me</h1>
+
+   <p class="about-text">
+       Hi! My name is Rachel Wang (王若麟). I am a software engineer and I am interested in developing explainable AI models that integrate multimodal data— such as electronic health records (EHR) and clinical notes. Additionally, I am focused on exploring human-AI interaction strategies that promote effective collaboration between AI-driven diagnostic tools and human-users.
+   </p>
+    <p class="about-text">
+       I received my MSc in Medical Engineering (Image and Data Processing) from University of Erlangen-Nuremberg, where I worked with Jithin Yohannan and Chris Bradley on Glaucoma prediction, Mathias Unberath and Katharina Breininger on human-AI interaction. I received my BSc in Electrical Engineering from North China Electric Power University.
+    </p>
+
+
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="content-wrapper">
+ <h1>PUBLICATIONS </h1>
+ <ul class="pub-list">
+     <li class="pub-item">
+         <a href="https://www.nature.com/articles/s41598-023-50597-0" target="_blank" class="publication-link">
+             Deep learning-based identification of eyes at risk for glaucoma surgery.
+         </a> <strong>Ruolin Wang</strong>, Chris Bradley, Patrick Herbert, Kaihua Hou, Pradeep Ramulu, Katharina Breininger, Mathias Unberath, and Jithin Yohannan.(Scientific Reports)
+     </li>
+
+     <li class="pub-item">
+         <a href="https://www.sciencedirect.com/science/article/abs/pii/S2589419624000139" target="_blank" class="publication-link">
+             Opportunities for Improving Glaucoma Clinical Trials via Deep Learning-Based Identification of Patients with Low Visual Field Variability
+         </a> <strong>Ruolin Wang</strong>, Chris Bradley, Patrick Herbert, Kaihua Hou, Gregory D. Hager, Katharina Breininger, Mathias Unberath, Pradeep Ramulu, and Jithin Yohannan (Ophthalmology Glaucoma)
+     </li>
+
+          <li class="pub-item">
+         <a href="https://arxiv.org/abs/2407.11974" target="_blank" class="publication-link">
+             Explainable AI Enhances Glaucoma Referrals, Yet the Human-AI Team Still Falls Short of the AI Alone
+         </a> Catalina Gomez, <strong>Ruolin Wang</strong>, Katharina Breininger, Corinne Casey, Chris Bradley, Mitchell Pavlak, Alex Pham, Jithin Yohannan, Mathias Unberath
+
+     </li>
+ </ul>
+</div>
+
+<style>
+* {
+ font-family: Arial, sans-serif;
+}
+
+.content-wrapper {
+ width: 70%;
+ max-width: 900px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+.pub-list {
+ padding-left: 20px;
+ margin: 0;
+ text-align: left;
+ font-size: 18px;
+}
+
+.pub-item {
+ margin-bottom: 15px;
+ line-height: 1.6;
+ text-align: left;
+}
+
+.publication-link {
+ font-family: Arial, sans-serif !important;
+ color: #11999E;
+ text-decoration: none;
+ transition: text-decoration 0.3s ease;
+ font-size: 18px;
+}
+
+.publication-link:hover {
+ text-decoration: underline;
+}
+
+strong {
+ color: black;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+ .content-wrapper {
+     width: 85%;
+     padding: 10px;
+ }
+
+ .pub-list, .publication-link {
+     font-size: 16px;
+ }
+}
+</style>
+
+<div class="Professional experience">
+    <div class="skill-row">
+        <h1>PROFESSIONAL EXPERIENCE</h1>
+
+
+        <div class="content-wrapper">
+            <div class="job-entry">
+                <div class="job-header">
+                    <div class="role">Backend Software Engineer</div>
+                    <div class="location">Köln, North Rhine-Westphalia, Germany</div>
+                </div>
+
+                <div class="job-subheader">
+                    <div class="company">Xantaro Deutschland GmbH</div>
+                    <div class="date">Feb 2023 – Present</div>
+                </div>
+
+                <ul class="job-responsibilities">
+                    <li>Designed and implemented a microservices-based architecture with RESTful APIs using FastAPI framework, collecting and normalizing network information from diverse systems  (fastapi, pydantic, peewee-async), SQL, RabbitMQ, Docker, Kubernetes. </li>
+                    <li>Gained hands-on experience with microservices deployment and maintenance, including optimizing existing code and architectures, server management tasks under mentor supervision</li>
+                    <li>Architected and maintained distributed Python services on Raspberry Pi for 5G Monitor, collaborating closely with customers to optimize software interfaces, tooling, and hardware integration</li>
+                    <li>Developed comprehensive unit and integration tests using pytest and unittest, achieving 90% code coverage</li>
+                    <li>Implemented CI/CD pipeline using Jenkins, increasing release frequency from monthly to bi-weekly</li>
+                    <li>Participated in code reviews, pair programming, and team meetings to ensure high-quality code and efficient collaboration</li>
+
+
+                </ul>
+            </div>
+
+            <div class="job-entry">
+                <div class="job-header">
+                    <div class="role">Machine Learning Graduate Research Assistant (part time)</div>
+                    <div class="location">Baltimore, Maryland, US</div>
+                </div>
+
+                <div class="job-subheader">
+                    <div class="company">Johns Hopkins University</div>
+                    <div class="date">Oct 2021 – Dec 2023</div>
+                </div>
+
+                <ul class="job-responsibilities">
+                    <li>Developed interpretable machine learning models for clinical decision-making, achieving 9.1% improvement in clinical outcomes and 15% reduction in analysis time; awarded $100,000 Research Grant </li>
+                    <li>Led an end-to-end ML solution for clinical trial outcomes, achieving 92% accuracy (AUC) through advanced data preprocessing and feature engineering; published findings as first author in Nature Scientific Reports</li>
+                    <li>Designed real-world data based deep learning models for optimized patient selection, utilizing statistical models to analyze results, reducing clinical trial requirements by 40% while maintaining statistical validity</li>
+                    <li>Performed clinical trial analysis using R, which showed DLMs could decrease sample sizes by approximately 30-40%</li>
+                    <li>Developed automation tools for 24/7 clinical data management between on-premise and cloud systems; managed electronic health records (EHR) data pipelines to ensure data integrity and quality</li>
+                    <li>Facilitated cross-functional collaboration between researchers and clinicians, effectively translating complex technical requirements into robust AI solutions</li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="Professional experience">
+    <div class="skill-row">
+        <h1>EDUCATION                                                                                                      </h1>
+
+
+        <div class="content-wrapper">
+            <div class="job-entry">
+                <div class="job-header">
+                    <div class="role">Friedrich-Alexander-Universität Erlangen-Nürnberg</div>
+                    <div class="location">Erlangen, Bavaria, Germany</div>
+                </div>
+
+                <div class="job-subheader">
+                    <div class="company">Master of Science in Medical Engineering (Track: Image and Data Processing)</div>
+                    <div class="date">Oct 2020 – Dec 2023</div>
+                </div>
+
+
+            </div>
+
+            <div class="job-entry">
+                <div class="job-header">
+                    <div class="role">North China Electric Power University</div>
+                    <div class="location">Hebei, China</div>
+                </div>
+
+                <div class="job-subheader">
+                    <div class="company">Bachelor of Science in Electrical Engineering </div>
+                    <div class="date">Sept 2012 – Jun 2016</div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="Professional experience">
+    <div class="skill-row">
+        <h1>HOBBIES                                                                                                      </h1>
+
+
+<p class="hobbies" style="text-align: left;">
+   I'm a creative home cook who loves experimenting with spicy dishes, especially hot-pot and fried chicken wings. I enjoy watching movies, bouldering, jogging and skiing. I have a cat with dreams of adding a dog to the family someday!
+</p>
+         <img class="hobbies" src="WechatIMG4245.jpeg" alt="hobbies" style="width: 300px;">
+
+<style>
+.hobbies {
+    width: 70%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black
+    font-size: 18px;
+}
+</style>
+
+<style>
+.content-wrapper {
+    width: 70%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.job-header, .job-subheader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.role, .company {
+    font-weight: bold;
+}
+
+.location, .date {
+    color: #666;
+}
+
+.job-responsibilities {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.job-responsibilities li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .content-wrapper {
+        width: 85%;
+        padding: 10px;
+    }
+
+    .job-header, .job-subheader {
+        flex-direction: column;
+    }
+
+    .location, .date {
+        margin-top: 5px;
+    }
+}
+</style>
+
+
+        <br>
+
+      </div>
+
+
+
+    </div>
+
+
+    <hr>
+
+
+
+<style>
+.project-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 40px;
+    max-width: 800px;  /* Reduced max-width for better readability */
+    margin: 0 auto;
+}
+
+.gallery-item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;  /* Increased height for better visibility */
+    object-fit: cover;
+}
+
+.gallery-content {
+    padding: 25px;
+    flex-grow: 1;
+}
+
+.gallery-content h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 1.4em;  /* Increased font size */
+}
+
+.gallery-content p {
+    margin: 0 0 20px 0;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-tag {
+    background-color: #e0f2f1;
+    color: #11999E;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .gallery-container {
+        padding: 0 20px;
+    }
+
+    .gallery-item img {
+        height: 200px;
+    }
+}
+</style>
+
+<style>
+.about-text {
+   font-family: Arial, sans-serif;
+   font-size: 17px;  /* Increased font size */
+   line-height: 1.6;  /* Adjusted line height for better readability */
+   color: #40514E;
+   width: 70%;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+   .about-text {
+       width: 85%;
+       padding: 10px;
+       font-size: 16px;  /* Slightly smaller font size for mobile */
+   }
+}
+</style>
+
+<p class="about-text">
+   <!-- Your text content here -->
+</p>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/rachel-ruolin-wang/">LinkedIn</a>
+      <a class="footer-link" href="https://scholar.google.com/citations?user=QHzpbDIAAAAJ&hl=en&oi=sra">Google Scholar</a>
+        <a class="footer-link" href="https://github.com/linwang98/Projects">Github</a>
+      <p class="copyright">@ 2025 Ruolin Wang @ </p>
+    </div>
+
+
+
+  </body>
+</html>
